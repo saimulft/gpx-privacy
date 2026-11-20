@@ -1,0 +1,17 @@
+export { DEFAULTS } from './defaults.ts';
+export { GpxError } from './errors.ts';
+export type { GpxErrorCode } from './errors.ts';
+export { haversine } from './geo.ts';
+export type { LatLon } from './geo.ts';
+export { looksLikeGpx, parseGpx } from './parse.ts';
+export type { ParseOptions } from './parse.ts';
+export { makeShareable } from './shareable.ts';
+export type { ShareableOptions, ShareableResult } from './shareable.ts';
+export { simplify } from './simplify.ts';
+export type { SimplifyOptions } from './simplify.ts';
+export { stats } from './stats.ts';
+export type { Stats, StatsOptions } from './stats.ts';
+export { trimEnds } from './trim.ts';
+export { toGpx } from './write.ts';
+export type { WriteOptions } from './write.ts';
+export type { ParsedGpx, TrackPoint } from './types.ts';
