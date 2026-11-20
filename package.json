@@ -1,21 +1,25 @@
 {
   "name": "gpx-privacy",
   "version": "0.1.0",
-  "description": "Make GPX tracks safe to share: trim the start and end, simplify the track, compute distance and climb, and write a minimal clean GPX file.",
+  "description": "Edit a GPX file for sharing: trim the start and end, simplify the track, compute distance and climb, and write a clean GPX file.",
   "keywords": [
+    "edit gpx file",
+    "trim gpx file",
+    "strava privacy zones",
+    "gpx parser",
+    "gpx simplify",
     "gpx",
     "gps",
     "privacy",
     "trim",
     "simplify",
     "track",
-    "route",
     "strava",
     "cycling",
     "running",
     "cli"
   ],
-  "homepage": "https://github.com/saimulft/gpx-privacy#readme",
+  "homepage": "https://oss.saimulislam.com/gpx-privacy/",
   "bugs": {
     "url": "https://github.com/saimulft/gpx-privacy/issues"
   },

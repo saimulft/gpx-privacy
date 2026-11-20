@@ -1,10 +1,12 @@
 # gpx-privacy
 
-Make GPX tracks safe to share.
+Edit a GPX file to make it safe to share: trim your start and end, simplify the track and write a clean copy.
 
 [![npm version](https://img.shields.io/npm/v/gpx-privacy)](https://www.npmjs.com/package/gpx-privacy)
 [![license](https://img.shields.io/npm/l/gpx-privacy)](https://www.npmjs.com/package/gpx-privacy)
 [![node](https://img.shields.io/node/v/gpx-privacy)](https://www.npmjs.com/package/gpx-privacy)
+
+Guide, examples and FAQ: https://oss.saimulislam.com/gpx-privacy/
 
 A recorded ride or run starts and ends at your front door. gpx-privacy hides the first and last 500 m of a track (wherever along the track they recur), simplifies what is left, works out the distance, climb and duration, and writes a minimal GPX file with nothing but positions, heights and times. It is a library and a command-line tool with one runtime dependency.
 
