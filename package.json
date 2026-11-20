@@ -1,6 +1,6 @@
 {
   "name": "gpx-privacy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Edit a GPX file for sharing: trim the start and end, simplify the track, compute distance and climb, and write a clean GPX file.",
   "keywords": [
     "edit gpx file",
